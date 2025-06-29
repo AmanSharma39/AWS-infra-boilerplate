@@ -1,0 +1,8 @@
+Terraform/Environments/dev/.terraform.lock.hcl
+Terraform/Environments/dev/.terraform/providers/registry.terraform.io/hashicorp/random/3.7.2/linux_amd64/LICENSE.txt
+Terraform/Environments/dev/terraform.tfstate
+Terraform/Environments/dev/.terraform/modules/modules.json
+Terraform/Environments/dev/terraform.tfstate.backup
+Terraform/Environments/dev/.terraform/providers/registry.terraform.io/hashicorp/aws/6.0.0/linux_amd64/terraform-provider-aws_v6.0.0_x5
+Terraform/Environments/dev/.terraform/providers/registry.terraform.io/hashicorp/aws/6.0.0/linux_amd64/LICENSE.txt
+Terraform/Environments/dev/.terraform/providers/registry.terraform.io/hashicorp/random/3.7.2/linux_amd64/terraform-provider-random_v3.7.2_x5
