@@ -21,15 +21,15 @@ jobs:
         
       - name: Terraform init 
         run: terraform init
-        working-directory: Terraform/environments/dev
+        working-directory: Terraform/Environments/dev
         
       - name: Terraform Plan
         run: terraform plan
-        working-directory: terraform/environments/dev
+        working-directory: Terraform/Environments/dev
 
       - name: Terraform Apply
         run: terraform apply -auto-approve
-        working-directory: terraform/environments/dev
+        working-directory: Terraform/Environments/dev
         env:
           AWS_ACCESS_KEY_ID: ${{ secrets.AWS_ACCESS_KEY_ID }}
           AWS_SECRET_ACCESS_KEY: ${{ secrets.AWS_SECRET_ACCESS_KEY }}
