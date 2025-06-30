@@ -2,19 +2,14 @@ provider "aws" {
   region = "eu-west-1"
 }
 terraform {
-  required_version = ">= 1.6.0"
-
   required_providers {
     aws = {
-      source  = "hashicorp/aws"
-      version = "~> 4.0"
-    }
-    hashicorp = {
-      source  = "hashicorp/hashicorp"  # Note: HashiCorp provider example; typically you add specific providers like vault, consul, etc.
-      version = "~> 0.1"
+      source = "hashicorp/aws"
+      version = "6.0.0"
     }
   }
 }
+
 # module "secrets" {
 #   source      = "../../modules/secrets"
 #   env_name    = "dev"
